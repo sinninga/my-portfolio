@@ -2826,12 +2826,12 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
+			.tiles article:nth-child(4n - 0), .tiles article:nth-child(4n - 3) {
 				width: 60%;
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #ec8d81;6fc3df
 			}
 
 			.tiles article:nth-child(6n - 4):before {
@@ -2839,7 +2839,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #6fc3df;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
@@ -3950,3 +3950,17 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+	.site-img {
+		height: 85%;
+		margin: 4%;
+		margin-top: 6%;
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.site-img {
+			margin: 0;
+		}
+
+	}
